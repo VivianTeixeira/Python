@@ -1,8 +1,8 @@
-def contar_pares_de_meias(cores):
-    contagem_cores = {}  # Dicionário para contar quantas meias de cada cor temos
-
+def contar_pares_de_meias(n, ar):
+    contagem_cores = {}  # Inicializa um dicionário vazio para contar as meias de cada cor
+    
     # Contar quantas meias de cada cor temos
-    for cor in cores:
+    for cor in ar:
         if cor in contagem_cores:
             contagem_cores[cor] += 1
         else:
@@ -15,6 +15,6 @@ def contar_pares_de_meias(cores):
 
     return total_pares
 
-# Exemplo de uso
-meias = [1, 2, 1, 3, 2, 1, 2, 3, 1, 4, 4]  # Exemplo de matriz de cores de meias
-print("Número total de pares de meias:", contar_pares_de_meias(meias))
+n = 9  # Número de cores diferentes
+ar = [1, 2, 3, 1, 2, 3, 4, 4, 8]  # Lista de cores das meias
+print("Número total de pares de meias:", contar_pares_de_meias(n, ar))
