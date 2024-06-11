@@ -1,2 +1,4 @@
-lista = list(range(10, 0, -1))
-print(lista)
+def s(nome):
+    print("Oiiiii", nome)
+
+s("vivi")
