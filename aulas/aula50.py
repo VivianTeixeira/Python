@@ -10,3 +10,4 @@ lista.append('João')
 
 for indice in range(len(lista)):
     print(indice, lista[indice], type(lista[indice]))
+    
