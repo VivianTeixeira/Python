@@ -7,7 +7,7 @@ sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
 print('Bora calcular?')
 largura = float(input('Largura: '))
 altura = float(input('Altura: '))
-area = (largura * altura) / 2
+area = (largura * altura)
 tinta = area / 2
 
 print(f'Área para pintar: {area}m²')
