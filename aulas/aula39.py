@@ -11,3 +11,4 @@ print(nome[3])
 
 nova_string = ''
 nova_string += '*L*u*i*z* *O*t*á*v*i*o'
+print(nova_string)
